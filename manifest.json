@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "melk",
+  "description": "Melk - app for simplify input",
+  "version": "1.1",
+  "icons": {
+    "128": "none.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "*://localhost:*/login/*" ],
+      "js": [ "content.js" ],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_title": "melk",
+    "default_icon": "none.png",
+    "default_popup": "popup.html"
+  }
+}

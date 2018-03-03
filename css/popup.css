@@ -1,0 +1,25 @@
+body {
+    background-color: #fafafa;
+    color: #333;
+    border: 0;
+    font: 13px Helvetica Neue, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.change-input {
+    float: right;
+}
+.change-label {
+    float: left;
+}
+.change-button {
+    float: right;
+    display: block;
+}
+.change-area {
+   margin-top: 15px; 
+}
